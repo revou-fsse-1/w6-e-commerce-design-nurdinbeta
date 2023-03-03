@@ -58,5 +58,5 @@ function updateProductStock(){
 
 ## Complexity Analysis
 
-The Complexity Analysis for createOrder is $O(n)$ which $n$ is
+The Complexity Analysis for updateProductStock is $O(n)$ which $n$ is
 the productStock in Database because its uncounted and will always updated.
