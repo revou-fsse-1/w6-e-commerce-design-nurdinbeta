@@ -8,7 +8,7 @@ For the High Level Design, i'm using Class Diagram Design, and because i can't f
 
 ## Create Order Details and Algorithm Design
 
-![Algorithm Design](assets/hl-design.drawio)
+![Algorithm Design](assets/hl-design.jpg)
 
 For the Create Order Details, i'm using sequence diagram because it's more understandable than the other diagram.
 
