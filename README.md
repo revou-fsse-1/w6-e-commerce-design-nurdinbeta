@@ -8,19 +8,20 @@ For the High Level Design, i'm using Class Diagram Design, and because i can't f
 
 ## Create Order Details and Algorithm Design
 
-![High Level Design](assets/e-commerce-design.png)
+![Algorithm Design](assets/hl-design.drawio)
 
 For the Create Order Details, i'm using sequence diagram because it's more understandable than the other diagram.
 
 ### Pseudocode
 
+```
 function getProductById(){
-get product details from database using id
-return product details (size, stock & price)
+    get product details from database using id
+    return product details (size, stock & price)
 }
 
 function createOrder() {
-do getProductById
+    do getProductById
 
     if ProductId is available {
         order create
@@ -41,19 +42,19 @@ do getProductById
 }
 
 function calculateOrder(createOrder){
-let totalPrice = 0
-for product in createOrder:
-totalPrice = totalPrice + (product x price)
-productStock = 1
+    let totalPrice = 0
+    for product in createOrder:
+    totalPrice = totalPrice + (product x price)
+    productStock = 1
 
     return totalPrice
-
 }
 
 function updateProductStock(){
-if order placement{
-return productStock by reduce productStock with quantity on order
+    if order placement{
+    return productStock by reduce productStock with quantity on order
 }
+```
 
 ## Complexity Analysis
 
